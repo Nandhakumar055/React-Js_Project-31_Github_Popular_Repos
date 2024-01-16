@@ -1,0 +1,52 @@
+.loading-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.github-popular-repository-route-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: radial-gradient(rgb(247, 179, 238), rgb(255, 255, 255));
+  min-height: 100vh;
+  height: 100%;
+  padding: 0px 15px;
+  padding-bottom: 40px;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+}
+
+.language-tab-list-route-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+.repository-items-route-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .repository-items-route-container {
+    width: 80%;
+  }
+}

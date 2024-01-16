@@ -1,0 +1,63 @@
+.repos-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+  background-color: rgb(247, 242, 244);
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  padding: 8px;
+  border-radius: 10px;
+  width: 150px;
+  animation-name: moving;
+  animation-duration: 2s;
+}
+@keyframes moving {
+  0% {
+    box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
+    border-radius: 0px;
+  }
+  25% {
+    box-shadow: rgba(110, 8, 93, 0.685) 0px 7px 29px 0px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 562px) {
+  .repos-items {
+    width: 200px;
+    margin: 10px;
+  }
+}
+
+.repos-logo-image {
+  width: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+.repos-heading {
+  text-align: center;
+  color: rgb(214, 0, 100);
+  font-size: 14px;
+}
+
+.repos-other-details-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.repos-other-details {
+  display: flex;
+  align-items: center;
+}
+
+.repos-other-details-image {
+  width: 20px;
+}
+.repos-other-details-users-count {
+  font-size: 12px;
+  padding-left: 10px;
+}

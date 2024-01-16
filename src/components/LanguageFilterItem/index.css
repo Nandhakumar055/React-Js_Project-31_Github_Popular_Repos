@@ -1,0 +1,32 @@
+.language-button {
+  border: none;
+  background-color: transparent;
+}
+
+.language-tab-item {
+  list-style: none;
+  margin: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .language-tab-item {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.language-active-tab-item {
+  border: 2px solid rgb(190, 8, 160);
+  border-radius: 5px;
+  padding: 4px;
+  list-style: none;
+  font-size: 15px;
+  color: rgb(206, 7, 189);
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .language-active-tab-item {
+    font-weight: 600;
+  }
+}
